@@ -4,7 +4,7 @@ from firebase_admin import credentials, firestore
 
 # constants
 COLLECTION = 'raspberry_collection'
-DOCUMENT = 'lectorpi_doc'
+DOCUMENT = 'student_doc'
 
 # firebase
 cred = credentials.Certificate("./config/path/to/serviceAccountKey.json")

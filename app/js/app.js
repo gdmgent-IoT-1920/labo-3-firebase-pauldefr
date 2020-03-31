@@ -1,6 +1,6 @@
 const dbConfig = {
     collection: 'raspberry_collection',
-    document: 'lectorpi_doc'
+    document: 'student_doc'
 };
 
 const app = {

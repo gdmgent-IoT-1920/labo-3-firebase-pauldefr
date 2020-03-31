@@ -39,7 +39,7 @@ def index():
 
 @app.route('/hello')
 def hello():
-    return 'You have reached the Pi of F-Rogers'
+    return 'Adele will not answer'
 
 @app.route('/sensehat', methods=['GET', 'POST'])
 def sensehat():
@@ -56,7 +56,7 @@ def sensehat():
 
 
 # server constants
-host = '10.120.145.2'
+host = '192.168.0.102'
 port = 8080
 if __name__ == '__main__':
     app.run(host=host, port=port, debug=True)
